@@ -80,5 +80,5 @@ Monitor your results and data to derive meaning. Asses strengths in performance 
 <h4> Links </h4>
 
 Credit to the jQuery Learning Center: <br>
-"https://learn.jquery.com/events/introduction-to-events/" <br>
-"https://learn.jquery.com/events/event-basics/"
+https://learn.jquery.com/events/introduction-to-events/ <br>
+https://learn.jquery.com/events/event-basics/
