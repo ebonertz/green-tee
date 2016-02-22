@@ -15,8 +15,7 @@ To specify to the browser what to do when an event occurs, you provide a functio
 
 <h4> Visualization </h4>
 
-
-<img src="https:ebonertz.github.io/Posts/listenerlogo.png">
+<img src="listenerlogo.png">
 
 <h4> Example Code </h4>
 
