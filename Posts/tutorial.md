@@ -9,11 +9,9 @@ An event is described as any recorded action a user takes when landing on your w
 
 <h4>Initiation </h4> At this time you choose which event you would like to track and initiate the first event on the load of the page.
 
-"There are many ways to listen for events. Actions are constantly occurring on a webpage, but the developer is only notified about them if they're listening for them. Listening for an event basically means you're waiting for the browser to tell you that a specific event has occurred and then you'll specify how the page should react.
-
 To specify to the browser what to do when an event occurs, you provide a function, also known as an event handler. This function is executed whenever the event occurs (or until the event is unbound)."
 
-https://learn.jquery.com/events/introduction-to-events/
+
 
 <h4> Visualization </h4>  Insert Photo Tags here. Screenshot of Event Listener Code. Big ear hearing the music note.
 
@@ -74,16 +72,13 @@ $( "input" ).on(
 );
 ```
 
-
-
-
-
-<h4> Listen </4>
+<h4> Listen </h4>
 
 Monitor your results and data to derive meaning. Asses strengths in performance and areas for improvement or easier use.
+"There are many ways to listen for events. Actions are constantly occurring on a webpage, but the developer is only notified about them if they're listening for them. Listening for an event basically means you're waiting for the browser to tell you that a specific event has occurred and then you'll specify how the page should react.
 
 <h4> Links </h4>
 
-Credit to the jQuery Learning Center
-
-href src="https://learn.jquery.com/events/event-basics/" "
+Credit to the jQuery Learning Center:
+"https://learn.jquery.com/events/introduction-to-events/"
+"https://learn.jquery.com/events/event-basics/"
