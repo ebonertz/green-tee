@@ -9,46 +9,19 @@ In some cases the user will trigger the event and in other cases it will be trig
  jQuery makes it easier to set up event-driven responses on page elements.
 
 
-<h4>Initiation </h4> At this time you choose which event you would like to track and initiate the first event on the load of the page.
+<h4>Initiation </h4>
+At this time you choose which event you would like to track and initiate them on user action like a click or hover.
+Other events can also be triggered by a browser such as a timer or .ready function to initialize a page load.
 
-To specify to the browser what to do when an event occurs, you provide a function, also known as an event handler. This function is executed whenever the event occurs."
-
-<h4> Visualization </h4>
+To specify to the browser what to do when an event occurs, you provide a function, also known as an event handler.
+This function is executed whenever the event occurs.
 
 <img src="listenerlogo.png">
 
+
 <h4> Example Code </h4>
 
-You can use this code to create a new event on page load.
-
-```
-
-// This function is called when the user arrives at the page
-// They have arrived
-$(document).ready(function( ) {
-
-}
-
-```
-Prevent page default
-```  
-
-//
-
-$(document).on("click", function(event ) {
-
-    // Prevent the form's default submission.//
-
-    event.preventDefault();
-
-    // Log the event object//
-
-    console.log(event);
-
-});
-```
-
-Modify the code to this to create a new event on Click
+Create a new event on Click
 
 ```
 $( "input" ).on(
@@ -68,6 +41,31 @@ $( "input" ).on(
         console.log( "An input was clicked or changed!" );
     }
 );
+```
+You can use this code to create a new event on page load.
+
+```
+// This function is called when the user arrives at the page
+// They have arrived
+$(document).ready(function( ) {
+
+}
+```
+Prevent page default
+```  
+//
+
+$(document).on("click", function(event ) {
+
+    // Prevent the form's default submission.//
+
+    event.preventDefault();
+
+    // Log the event object//
+
+    console.log(event);
+
+});
 ```
 
 <h4> Listen </h4>
