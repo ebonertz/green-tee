@@ -55,9 +55,9 @@ Prevent page default
 ```  
 //
 
-$(document).on("click", function(event ) {
+$(element).on("click", function(event ) {
 
-    // Prevent the form's default submission.//
+    // Prevent the elements default submission.//
 
     event.preventDefault();
 
