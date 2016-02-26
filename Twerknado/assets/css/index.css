@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.appt-container {
+    margin: .5em;
+}
+
+header {
+    border-bottom: 2px solid #EEE;
+    width: 750px;
+    height: 55px;
+}
+.header-page-1 {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.search-bar {
+    width: 710px;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+.home-title {
+    font-size: 32px;
+    font-family: Helvetica;
+    color: rgb(85, 220, 184);
+}
+
+.home-container {
+    width:750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-title {
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    color:rgb(115, 115, 115);
+    margin-left: 7em;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+
+.address-page-2 {
+    border-bottom: 2px solid #EEE;
+    width: 700px;
+    padding-left:2%;
+    padding-right:2%
+}
+
+.title-page-2,
+.date-page-2 {
+    border-bottom: 2px solid #EEE;
+    width:700px;
+    margin-bottom: 1.5em;
+    padding-left:2%;
+    padding-right:2%
+}
+.time-page-2 {
+    width: 700px;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+label {
+    display: block;
+    color:rgb(115, 115, 115);
+    font-size: 18px;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+input {
+    width:700px;
+    font-size:16px;
+    line-height:32px;
+    width: 700px;
+    margin-top: 6px;
+    margin-bottom: 1em;
+}
+
+.column-mobile {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.save-button {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.octicon-plus {
+    float:right;
+    margin-right: 3%;
+}
+
+.octicon-plus:hover,
+.octicon-chevron-left:hover {
+    color: rgb(85, 220, 184);
+}
+
+
+.octicon-search {
+    margin-left: -30px;
+}
+
+
+.octicon-location,
+.octicon-calendar,
+.octicon-clock  {
+    margin-right: 10px;
+    margin-top: -40px;
+    float:right;
+    position: relative;
+}
+
+
+.octicon-chevron-left {
+    padding: 5px;
+}
+
+.save-container {
+    width: 725px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+.save-button {
+    background: rgb(85, 220, 184);
+    width: 700px;
+    margin-top: 30px;
+    position:fixed;
+    bottom:5px;
+    color: white;
+    font-size: 1.5em;
+    height: 50px;
+}
+
+.button-container {
+    width:750px;
+    position: fixed;
+    bottom: 5px;
+}
+.delete-button {
+    width:49%;
+    background: red;
+    height: 50px;
+    color: white;
+    font-size: 1.5em
+}
+.save-edit-button {
+    width: 49%;
+    background: rgb(85, 220, 184);
+    height: 50px;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+.mockup-appointment-holder{
+    width: 700px;
+}
+.left-col{
+    font-size: 22px;
+    text-align: center;
+    display:inline-block;
+    width: 20%;
+    background: rgb(85, 220, 184);
+    height: 90px;
+    margin-left: 5%;
+}
+
+.right-col{
+    font-size: 22px;
+    float: right;
+    width: 75%;
+    background: #eee;
+    height: 90px;
+    margin-left: -5px;
+}
+
+.appt-time,
+.appt-title{
+    margin-top: 15px;
+}
+
+.appt-title{
+    margin-bottom: 10px;
+}
+
+.city-state{
+    color: #aaa;
+    font-size: 19px;
+}
